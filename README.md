@@ -80,21 +80,19 @@ Abra seu terminal ou prompt de comando e clone este repositório:
 Bash
 
 git clone [https://github.com/MaikonGino/entrega_api.hgbrasil.com-finance.git](https://github.com/MaikonGino/entrega_api.hgbrasil.com-finance.git)
+
 Navegar até o Diretório do Projeto:
 
 Bash
-
 cd entrega_api.hgbrasil.com-finance
 Obter as Dependências: (Certifique-se de que o Dart SDK possui a configuração dart: vm: extra-gen-heap-size: 512 no pubspec.yaml para evitar erros de memória durante a compilação, conforme a seção 2. Tecnologias Utilizadas.)
 
 Bash
-
 flutter pub get
 Executar o Aplicativo:
 Este aplicativo foi configurado para rodar na plataforma web (navegador Edge/Chrome) para simplificar a execução.
 
 Bash
-
 flutter run -d edge
 O aplicativo será compilado e uma nova aba no seu navegador Microsoft Edge (ou o navegador padrão) será aberta automaticamente, exibindo a cotação da bolsa.
 
