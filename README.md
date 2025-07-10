@@ -36,7 +36,7 @@ cotacao_bolsa/
 ├── pubspec.yaml             # Arquivo de configuração do projeto e dependências.
 ├── pubspec.lock             # Trava as versões das dependências.
 ├── README.md                # Este arquivo.
-├── (outras pastas geradas automaticamente pelo Flutter: android/, ios/, web/, windows/, etc.)
+└── (outras pastas geradas automaticamente pelo Flutter: android/, ios/, web/, windows/
 
 
 ## 4. Implementação da Lógica
