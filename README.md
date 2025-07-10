@@ -1,35 +1,33 @@
-Aplicativo Flutter para Exibição de Cotação da Bolsa (IBOVESPA)
-1. Visão Geral do Projeto
+Com certeza! Aqui está o texto que você forneceu, formatado como um README.md completo, acadêmico e em português do Brasil, pronto para ser copiado e colado.
+
+Markdown
+
+# Aplicativo Flutter para Exibição de Cotação da Bolsa (IBOVESPA)
+
+## 1. Visão Geral do Projeto
+
 Este projeto consiste no desenvolvimento de um aplicativo móvel simples, utilizando o framework Flutter, cujo objetivo principal é exibir a cotação atual do Índice Bovespa (IBOVESPA). Dada a natureza das APIs financeiras, que frequentemente exigem chaves de acesso pagas ou com restrições de uso para dados em tempo real sem custo, esta implementação foca na demonstração do consumo e da apresentação de um conjunto de dados JSON estático, simulando uma resposta de API externa. O objetivo principal é ilustrar a arquitetura de um aplicativo Flutter para consumo de dados e renderização de interface gráfica de forma eficiente e esteticamente agradável.
 
-2. Tecnologias e Ferramentas
+## 2. Tecnologias e Ferramentas
+
 O desenvolvimento deste aplicativo foi realizado utilizando as seguintes tecnologias e ferramentas:
 
-Framework: Flutter (versão 3.29.3, canal stable)
+* **Framework:** Flutter (versão 3.29.3, canal `stable`)
+    * **Versão do Framework:** `ea121f8859` (11 de abril de 2025)
+    * **Versão do Engine:** `cf56914b32`
+* **Linguagem de Programação:** Dart (versão 3.7.2)
+* **Ambiente de Desenvolvimento Integrado (IDE):** Visual Studio Code (versão 1.102.0)
+    * **Extensão Flutter para VS Code:** Versão 3.114.0
+* **Gerenciamento de Pacotes:** `flutter pub`
+* **Formato de Dados:** JSON
+* **Sistema Operacional de Desenvolvimento:** Microsoft Windows (versão 10.0.22631.5624)
+* **Ambiente de Execução/Testes:** Navegador web (Microsoft Edge 138.0.3351.77)
 
-Versão do Framework: ea121f8859 (11 de abril de 2025)
+### 2.1. Configuração do Ambiente de Desenvolvimento
 
-Versão do Engine: cf56914b32
+Para garantir a execução otimizada do compilador Dart e evitar problemas de memória (`Out of Memory`), a seguinte configuração foi adicionada ao arquivo `pubspec.yaml`:
 
-Linguagem de Programação: Dart (versão 3.7.2)
-
-Ambiente de Desenvolvimento Integrado (IDE): Visual Studio Code (versão 1.102.0)
-
-Extensão Flutter para VS Code: Versão 3.114.0
-
-Gerenciamento de Pacotes: flutter pub
-
-Formato de Dados: JSON
-
-Sistema Operacional de Desenvolvimento: Microsoft Windows (versão 10.0.22631.5624)
-
-Ambiente de Execução/Testes: Navegador web (Microsoft Edge 138.0.3351.77)
-
-2.1. Configuração do Ambiente de Desenvolvimento
-Para garantir a execução otimizada do compilador Dart e evitar problemas de memória (Out of Memory), a seguinte configuração foi adicionada ao arquivo pubspec.yaml:
-
-YAML
-
+```yaml
 dart:
   vm:
     extra-gen-heap-size: 512 # Pode ser ajustado para 1024, se necessário.
