@@ -26,7 +26,8 @@ Para garantir a execução otimizada do compilador Dart e evitar problemas de me
 dart:
   vm:
     extra-gen-heap-size: 512 # Pode ser ajustado para 1024, se necessário.
-3. Estrutura e Organização do Código
+    
+## 3. Estrutura e Organização do Código
 O projeto segue uma estrutura de pastas padrão do Flutter, com a lógica principal concentrada no arquivo main.dart para simplicidade e demonstração clara do fluxo de dados.
 
 cotacao_bolsa/
@@ -110,7 +111,8 @@ Revisão e refinamento do pubspec.yaml para configurações corretas.
 
 Melhoria contínua da interface do usuário para um design mais limpo e moderno.
 
-8. Autor e Contato
-Autor: Maikon Gino
+## 8. Autor e Contato
 
-Data da Criação/Última Modificação: 10 de Julho de 2025 (GMT-3)
+* **Autor:** Maikon Gino
+* **GitHub:** [MaikonGino](https://github.com/MaikonGino)
+* **Data da Criação/Última Modificação:** 10 de Julho de 2025 (GMT-3)
