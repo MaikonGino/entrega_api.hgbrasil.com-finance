@@ -1,7 +1,3 @@
-Com certeza! Aqui está o texto que você forneceu, formatado como um README.md completo, acadêmico e em português do Brasil, pronto para ser copiado e colado.
-
-Markdown
-
 # Aplicativo Flutter para Exibição de Cotação da Bolsa (IBOVESPA)
 
 ## 1. Visão Geral do Projeto
