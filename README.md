@@ -38,7 +38,7 @@ cotacao_bolsa/
 ├── (outras pastas geradas automaticamente pelo Flutter: android/, ios/, web/, windows/, etc.)
 
 
-##4. Implementação da Lógica
+## 4. Implementação da Lógica
 A aplicação demonstra os seguintes conceitos fundamentais:
 
 Simulação de Consumo de API: A resposta JSON do endpoint https://api.hgbrasil.com/finance foi incorporada como uma String estática (staticJsonResponse) dentro do lib/main.dart. Isso permite que o aplicativo processe os dados como se tivessem sido recebidos de uma requisição de rede.
@@ -49,7 +49,7 @@ Gerenciamento de Estado Simplificado: O widget StatefulWidget (StockQuotePage) �
 
 Simulação de Carregamento Assíncrono: Uma pausa artificial (Future.delayed) é introduzida na função de processamento (_processStaticData) para simular o tempo de resposta de uma API real, permitindo a exibição de um indicador de carregamento (CircularProgressIndicator).
 
-##5. Interface do Usuário (UI)
+## 5. Interface do Usuário (UI)
 A interface do usuário foi projetada para ser clara, intuitiva e esteticamente agradável, focando na facilidade de leitura das informações financeiras.
 
 Layout Centralizado: O conteúdo principal da tela é centralizado para melhor visualização.
@@ -62,7 +62,7 @@ Tipografia e Cores: O texto utiliza a tipografia do tema do Flutter (Theme.of(co
 
 Funcionalidade de Atualização: Um IconButton na AppBar e um ElevatedButton no corpo da tela permitem ao usuário "reprocessar" os dados estáticos, simulando a atualização da cotação.
 
-##6. Como Executar o Projeto
+## 6. Como Executar o Projeto
 Para configurar e executar este aplicativo em seu ambiente de desenvolvimento:
 
 Pré-requisitos:
@@ -97,7 +97,7 @@ Bash
 flutter run -d edge
 O aplicativo será compilado e uma nova aba no seu navegador Microsoft Edge (ou o navegador padrão) será aberta automaticamente, exibindo a cotação da bolsa.
 
-##7. Desafios e Aprendizados
+## 7. Desafios e Aprendizados
 Durante o desenvolvimento, foram abordados desafios comuns em projetos Flutter, como:
 
 Gerenciamento de erros de ambiente e ferramentas (PATH, detecção de dispositivos).
